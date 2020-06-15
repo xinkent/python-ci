@@ -4,5 +4,5 @@ from src.math import addition
 class MathTest(unittest.TestCase):
     def test_addition(self):
         actual = addition(3,4)
-        expected = 8
+        expected = 10
         self.assertEqual(actual, expected)
